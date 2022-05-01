@@ -1,0 +1,14 @@
+[package]
+name = "anorak"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+members = [
+  "anorak_tui",
+  "libanorak"
+]
+
+[[bin]]
+path = "anorak_tui/src/main.rs"
+name = "anorak"
